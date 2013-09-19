@@ -22,7 +22,7 @@
     "extra": {
         "map": [
             ["app/code/community/DevBlog/MobileFpcFix/*", "app/code/community/DevBlog/MobileFpcFix/"],
-            ["app/etc/modules/DevBlog_MobileFpxFix.xml",  "app/etc/modules/DevBlog_MobileFpxFix.xml"]
+            ["app/etc/modules/DevBlog_MobileFpcFix.xml",  "app/etc/modules/DevBlog_MobileFpcFix.xml"]
         ]
     }
 }
