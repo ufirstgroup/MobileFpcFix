@@ -1,0 +1,28 @@
+{
+    "name": "benjy14/MobileFpcFix",
+    "type": "magento-module",
+    "description":"Fixes FPC caching problem for mobile theme",
+    "authors":[
+	    {
+            "name":"Ben Dougherty",
+            "email":"ben@dougherty.net.au",
+            "homepage": "http://devblog.com.au",
+            "role": "Developer"
+        },
+        {
+            "name":"Evaldas Taroza",
+            "email":"evaldas.taroza@ufirstgroup.com",
+            "homepage": "http://www.ufirstgroup.com",
+            "role": "Contributor"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/community/DevBlog/MobileFpcFix/*", "app/code/community/DevBlog/MobileFpcFix/"],
+            ["app/etc/modules/DevBlog_MobileFpxFix.xml",  "app/etc/modules/DevBlog_MobileFpxFix.xml"]
+        ]
+    }
+}
