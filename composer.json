@@ -1,5 +1,5 @@
 {
-    "name": "benjy14/MobileFpcFix",
+    "name": "benjy14/mobilefpcfix",
     "type": "magento-module",
     "description":"Fixes FPC caching problem for mobile theme",
     "authors":[
